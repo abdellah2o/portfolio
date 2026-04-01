@@ -151,6 +151,9 @@ details, #technologies {
 @media screen and (max-width: 1023px){
     header, footer {
         padding: 0.3rem 0.5rem;
+
+        flex-direction: column;
+        align-items: center;
     }
 
     h1 {
@@ -162,11 +165,7 @@ details, #technologies {
     }
 
     nav a {
-        padding: 0 0.9rem;
-    }
-
-    nav a:last-child {
-        font-size: medium;
+        padding: 0.4rem 0.9rem;
     }
 
     footer nav {
@@ -188,11 +187,7 @@ details, #technologies {
     }
 
     nav a {
-        padding: 0 0.6rem;
-    }
-
-    nav a:last-child {
-        font-size: x-small;
+        padding: 0.2rem 0.6rem;
     }
 
     footer nav {

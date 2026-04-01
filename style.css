@@ -144,3 +144,62 @@ details, #technologies {
     flex-direction: column;
     gap: 0.5rem;
 }
+
+
+/*RESPONSIVE DESIGN*/
+
+@media screen and (max-width: 1023px){
+    header, footer {
+        padding: 0.3rem 0.5rem;
+    }
+
+    h1 {
+        font-size: large;
+    }
+
+    header nav {
+        font-size: large;
+    }
+
+    nav a {
+        padding: 0 0.9rem;
+    }
+
+    nav a:last-child {
+        font-size: medium;
+    }
+
+    footer nav {
+        font-size: medium;
+    }
+
+    footer p {
+        font-size: small;
+    }
+}
+
+@media screen and (max-width: 767px){
+    h1 {
+        font-size: medium;
+    }
+
+    header nav {
+        font-size: medium;
+    }
+
+    nav a {
+        padding: 0 0.6rem;
+    }
+
+    nav a:last-child {
+        font-size: x-small;
+    }
+
+    footer nav {
+        font-size: small;
+    }
+
+    footer p {
+        font-size: smaller;
+    }
+}

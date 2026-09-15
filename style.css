@@ -145,6 +145,101 @@ details, #technologies {
     gap: 0.5rem;
 }
 
+/*filtrage des projets*/
+
+#filtres {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.7rem;
+}
+
+#btn_filtrer {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 600;
+    color: black;
+
+    background: linear-gradient(
+        to bottom,
+        #C89A1E 0%,
+        #C89A1E 45%,
+        #B8860B 55%,
+        #8F6508 100%
+    );
+
+    padding: 0.3rem 1.2rem;
+    margin-bottom: 1rem;
+    border: 2px solid black;
+    border-radius: 10px;
+
+    box-shadow:
+        inset 0 2px 3px rgba(255,255,255,0.45),
+        inset 0 -2px 3px rgba(0,0,0,0.45);
+
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+
+#btn_filtrer:hover {
+    background: linear-gradient(
+        to top,
+        #B3891B 0%,
+        #B3891B 45%,
+        #A37409 55%,
+        #7A5606 100%
+    );
+
+    box-shadow:
+        inset 0 2px 3px rgba(0,0,0,0.45),
+        inset 0 -2px 3px rgba(0,0,0,0.45);
+}
+
+#btn_filtrer:active {
+    box-shadow:
+        inset 0 3px 4px rgba(0,0,0,0.45),
+        inset 0 -1px 2px rgba(0,0,0,0.45);
+}
+
+#panneau_filtres {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.filtre {
+    background: linear-gradient(#e5cba8, burlywood);
+    border: 2px solid #7A6140;
+    border-radius: 0.5rem;
+    padding: 0 1rem 0.6rem;
+    margin-bottom: 1rem;
+}
+
+.filtre legend {
+    font-weight: 600;
+    padding: 0 0.3rem;
+}
+
+.filtre legend label, .filtre_valeurs label {
+    cursor: pointer;
+}
+
+.filtre_valeurs {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.filtre input {
+    accent-color: #8F6508;
+}
+
+/* indispensable : sans ça, le display:flex ci-dessus écrase l'attribut hidden */
+[hidden] {
+    display: none !important;
+}
+
 
 /*RESPONSIVE DESIGN*/
 

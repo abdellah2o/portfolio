@@ -132,7 +132,7 @@ main {
     max-width: 24rem;
 }
 
-details, #technologies {
+details, #technologies, #parcours {
     background: linear-gradient(#e5cba8, burlywood);
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;

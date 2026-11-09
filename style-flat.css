@@ -123,6 +123,12 @@ details, #technologies, #parcours {
     gap: 0.5rem;
 }
 
+.separateur {
+    height: 2px;
+    border-radius: 1px;
+    background-color: #e5cba8;
+}
+
 /*filtrage des projets*/
 
 #filtres {
